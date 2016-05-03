@@ -31,6 +31,8 @@ body {
 }
 
 .font-icon {
+  position: relative;
+  top: 5px;
   padding: 0;
   margin: 0;
 }
@@ -42,6 +44,7 @@ body {
   margin: 0 auto;
   height: 100vh;
   background-color: white;
+  overflow: scroll;
 }
 
 #header {
@@ -49,6 +52,8 @@ body {
   background-color: red;
   padding: 0 5px;
   width: 100%;
+  max-width: 615px;
+  position: fixed;
 }
 
 #search-container {
@@ -56,11 +61,23 @@ body {
 }
 
 #search-bar {
-  padding-bottom: 5px;
+  position: relative;
+  top: 5px;
+  padding: 5px 0;
 }
 
 #search-input {
-  width: calc(100% - 68px);
-  height: 30px;
-  margin: 0  0 5px 0;
+  width: calc(100% - 58px);
+  height: 20px;
+  margin: 0  5px 10px 5px;
+}
+
+#calorie-total {
+  position: fixed;
+  width: 100%;
+  max-width: 615px;
+  color: white;
+  background-color: red;
+  bottom: 0px;
+  padding: 2.5px;
 }
