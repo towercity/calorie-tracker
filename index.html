@@ -1,22 +1,25 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Classic Calorie Tracker</title>
 
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="libs/font-awesome-4.6.1/css/font-awesome.min.css">
 </head>
 <body>
   <div id="app-body">
     <!-- Menu header -->
     <div id="header">
       <div id="title-text">
-        <h1>Calorie Tracker</h1>
+        <h1 class="center-text">Calorie Tracker</h1>
       </div>
       <div id="search-container">
-        <span id="menu-icon"></span>
+        <span id="menu-icon"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
         <span id="search-bar">
-          <input type="text" id="search-input">
-          <span id="search-button"></span>
+          <input type="text" id="search-input" autofocus>
+          <span id="search-button"><i class="fa fa-search fa-2x" aria-hidden="true"></i></span>
         </span>
       </div>
     </div>
