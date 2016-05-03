@@ -6,6 +6,47 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <div id="app-body">
+    <!-- Menu header -->
+    <div id="header">
+      <div id="title-text">
+        <h1>Calorie Tracker</h1>
+      </div>
+      <div id="search-container">
+        <span id="menu-icon"></span>
+        <span id="search-bar">
+          <input type="text" id="search-input">
+          <span id="search-button"></span>
+        </span>
+      </div>
+    </div>
 
+    <!-- Slide-in menu -->
+    <div id="menu">
+      <!-- TODO: Add content -->
+    </div>
+
+    <!-- Search results -->
+    <div id="search-menu">
+      <ul id="search-results">
+        <li class="search-item"></li>
+      </ul>
+    </div>
+
+    <!-- Food list -->
+    <div id="food-list-container">
+      <ul id="food-list">
+        <li class="food-item">
+          <span class="delete-button"></span>
+          <span class="food-name"></span>
+          <span> - </span>
+          <span class="food-amt"></span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Calorie total -->
+    <div id="calorie-total"><span>Total Calories: </span><span id="cal-amt"></span></div>
+  </div>
 </body>
 <html>
