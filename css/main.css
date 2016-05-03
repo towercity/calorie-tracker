@@ -72,6 +72,38 @@ body {
   margin: 0  5px 10px 5px;
 }
 
+#menu {
+  display: none;
+}
+
+#search-menu {
+  display: none;
+}
+
+#food-list-container {
+  margin-top: 30px;
+}
+
+#food-list {
+  list-style-type: none;
+  background-color: #eee;
+  padding: 0;
+}
+
+.food-item {
+  margin: 0 auto;
+  padding: 15px 25px;
+  border-bottom: 1px solid #aaa;
+}
+
+.food-item:last-child {
+  border: none;
+}
+
+.delete-button {
+  padding-right: 15px;
+}
+
 #calorie-total {
   position: fixed;
   width: 100%;
