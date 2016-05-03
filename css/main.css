@@ -74,6 +74,14 @@ body {
 
 #menu {
   display: none;
+  position: absolute;
+  top: 30px;
+  width: 66%;
+  max-width: 410px;
+  color: white;
+  background-color: red;
+  z-index: 1;
+  padding: 5px;
 }
 
 #search-menu {
