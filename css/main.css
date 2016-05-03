@@ -9,6 +9,18 @@
   /* border: 1px solid red; */
 }
 
+input[type="text"] {
+  margin: 0;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
 body {
   /* TODO: get a better background image */
   background-image: url('../images/background.jpg')
@@ -40,7 +52,6 @@ body {
 }
 
 #search-container {
-  height: 35px;
   padding: 0;
 }
 
