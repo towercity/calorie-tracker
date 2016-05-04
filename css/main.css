@@ -43,7 +43,7 @@ body {
   max-width: 615px;
   margin: 0 auto;
   height: 100vh;
-  background-color: white;
+  background-color: #aaa;
   overflow: scroll;
 }
 
@@ -86,6 +86,17 @@ body {
 
 #search-menu {
   display: none;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  max-width: 615px;
+  z-index: 1;
+  background-color: white;
+}
+
+#search-results {
+  list-style-type: none;
+  padding: 0;
 }
 
 #food-list-container {
