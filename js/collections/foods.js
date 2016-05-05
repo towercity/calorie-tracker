@@ -6,7 +6,7 @@ var app = app || {};
   var Foods = Backbone.Collection.extend({
     model: app.Todo,
 
-    localStorage: new Backbone.LocalStorage('calorie-tracker-backbone'),
+    localStorage: new Backbone.LocalStorage('foods-backbone'),
 
     // TODO: Add functions, if needed
 
